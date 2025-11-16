@@ -17,7 +17,7 @@ app.get("/echo/:id", (req: Request, res: Response) => {
 app.post("/sum", (req: Request, res: Response) => {
   const { numbers } = req.body;
   if (!Array.isArray(numbers))
-    return res.status(400).json({ error: "numbers must be an array" });
+    return res.status(400).json({ error: "numbers must be an aray" });
   const sum = numbers.reduce((a: number, b: number) => a + b, 0);
   res.json({ sum });
 });
