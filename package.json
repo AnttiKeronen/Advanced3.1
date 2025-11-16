@@ -1,35 +1,19 @@
 {
   "name": "advanced3.1",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
-  "main": "dist/app.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsc-watch --onSuccess \"nodemon dist/app.js\"",
-    "dev": "nodemon src/app.ts"
+    "start": "node dist/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnttiKeronen/Advanced3.1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnttiKeronen/Advanced3.1/issues"
-  },
-  "homepage": "https://github.com/AnttiKeronen/Advanced3.1#readme",
   "dependencies": {
-    "express": "^5.1.0",
-    "path": "^0.12.7"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.5",
-    "@types/node": "^24.10.1",
-    "nodemon": "^3.1.11",
-    "ts-node": "^10.9.2",
-    "tsc-watch": "^7.2.0",
+    "@types/node": "^22.11.0",
     "typescript": "^5.9.3"
   }
 }
+
