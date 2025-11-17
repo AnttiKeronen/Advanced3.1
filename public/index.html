@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Users</title>
-  </head>
-  <body>
-    <h1>Add User</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express TS Server</title>
+</head>
+<body>
+    <h1>Express TypeScript Server</h1>
+
     <form id="userForm">
-      <input id="name" type="text" placeholder="Name" required />
-      <input id="email" type="email" placeholder="Email" required />
-      <button type="submit">Add</button>
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <button type="submit">Add User</button>
     </form>
-    <button id="getUsers">Load Users</button>
+
+    <button id="getUsers">Get Users</button>
     <ul id="userList"></ul>
+
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
